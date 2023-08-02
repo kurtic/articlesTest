@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.7.1)
+  - Gifu (3.3.1)
+  - Nuke (10.7.1)
+  - NukeUI (0.8.0):
+    - Gifu (~> 3.0)
+    - Nuke (~> 10.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - NukeUI
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Gifu
+    - Nuke
+    - NukeUI
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
+  NukeUI: 6e99837a8d066c93baa4262692d9ea9ffbc863ba
+
+PODFILE CHECKSUM: d60b0f8b5f049c924b95acae6c6613c09e7f90af
+
+COCOAPODS: 1.12.1
