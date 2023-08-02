@@ -19,17 +19,15 @@ struct SearchBarView: View {
             
             TextField("Search...", text: $searchText)
                 .disableAutocorrection(true)
-                .overlay(
-                    Image(systemName: "xmark.circle.fill")
-                    .padding()
-                    .offset(x: 10)
-                    .foregroundColor(.secondary)
-                    .opacity(searchText.isEmpty ? 0.0 : 1.0)
-                    .onTapGesture {
-                        searchText = ""
-                    },
-                    alignment: .trailing
-                )
+                
+            Image(systemName: "xmark.circle.fill")
+            .offset(x: 10)
+            .padding(.trailing, 10)
+            .foregroundColor(.secondary)
+            .opacity(searchText.isEmpty ? 0.0 : 1.0)
+            .onTapGesture {
+                searchText = ""
+            }
         }
         .font(.headline)
         .padding()

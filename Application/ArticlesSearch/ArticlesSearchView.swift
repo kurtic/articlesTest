@@ -55,9 +55,6 @@ struct ArticlesSearchView: View {
             }
             .padding()
             .edgesIgnoringSafeArea(.bottom)
-//            .onAppear {
-            //                viewModel.fetchArticles()
-            //            }
         }
     }
 }
